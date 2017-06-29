@@ -1,0 +1,33 @@
+{
+  "name": "react-native-cards-slider",
+  "version": "1.0.0",
+  "description": "A simple cards slider implement use ScrollView working right on iOS and Android.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ytqiu/react-native-cards-slider.git"
+  },
+  "keywords": [
+    "react-native",
+    "RN",
+    "cards",
+    "slider"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ytqiu/react-native-cards-slider/issues"
+  },
+  "homepage": "https://github.com/ytqiu/react-native-cards-slider#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "react": "^16.0.0-alpha.6",
+    "react-native": "^0.43.4"
+  }
+}
