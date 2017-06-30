@@ -3,7 +3,20 @@ A simple cards slider implement use ScrollView working right on iOS and Android.
 
 ## usage
 ``
+npm install git+https://github.com/ytqiu/react-native-cards-slider.git --save
+
 import CarouselCard from 'react-native-card-carousel'
+
+// card item will be wrapped by a <View /> which using default props.
+<CarouselCard
+      data = {[1, 2, 3]}
+      onPress = {item => {}}
+      contentRender = {item => {
+          return (
+              <Text>{item}</Text>
+          )
+      }} 
+  />
 ``
 
 ## snapshot
